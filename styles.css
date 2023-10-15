@@ -1,0 +1,20 @@
+:root {
+    --footer-font-size: 0.925em;
+    --footer-text-color: #5F5F5F;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+p {
+    width: max(300px, 20%);
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer > p {
+    font-size: var(--footer-font-size);
+    color: var(--footer-text-color);
+}
