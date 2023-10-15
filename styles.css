@@ -1,6 +1,7 @@
 :root {
     --footer-font-size: 0.925em;
     --footer-text-color: #5F5F5F;
+    --random-color: #FF0000;
 }
 
 body {
@@ -12,6 +13,10 @@ p {
     width: max(300px, 20%);
     text-align: justify;
     text-justify: inter-word;
+}
+
+h2 {
+    color: var(--random-color);
 }
 
 footer > p {
